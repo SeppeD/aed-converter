@@ -3,10 +3,11 @@
 }
 
 .conversion-container {
-    margin: 1rem;
+    margin: 1rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 365px;
 
     .currency {
         margin: 0;
@@ -32,29 +33,10 @@
       }
 }
 
-.converter-formfield {
-    margin: 1rem;
-
-    font-size: 2rem;
-
-    ::ng-deep {
-
-        .mat-form-field-label,
-        .mat-form-field-outline,
-        .mat-form-field-appearance-outline {
-            color: #69f0ae;
-        }
-
-        .mat-input-element:disabled {
-            color: white;
-        }
-    }
-}
-
 .calculator {
     display: grid;
-    grid-auto-rows: 60px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 80px;
+    grid-template-columns: repeat(4, 80px);
     grid-gap: 15px;
     margin-top: 4rem;
 
