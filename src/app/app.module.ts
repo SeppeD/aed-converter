@@ -14,6 +14,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ExchangeRateDialogComponent } from './components/exchange-rate-dialog/exchange-rate-dialog.component';
 import { FormsModule } from '@angular/forms';
 import { ConversionRateService } from './services/conversion-rate.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -32,7 +34,13 @@ import { ConversionRateService } from './services/conversion-rate.service';
     MatFormFieldModule,
     MatInputModule,
     MatSnackBarModule,
-    FormsModule
+    FormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [ ConversionRateService ],
   bootstrap: [ AppComponent ]
