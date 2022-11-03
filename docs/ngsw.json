@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1667517894202,
-  "index": "/index.html",
+  "timestamp": 1667518312913,
+  "index": "/aed-converter/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.88eac96e08e3aa7e.js",
-        "/manifest.webmanifest",
-        "/polyfills.9a5ebbe3a240f3af.js",
-        "/runtime.828b0383e7dea669.js",
-        "/styles.9b7805b21df3425e.css"
+        "/aed-converter/favicon.ico",
+        "/aed-converter/index.html",
+        "/aed-converter/main.88eac96e08e3aa7e.js",
+        "/aed-converter/manifest.webmanifest",
+        "/aed-converter/polyfills.9a5ebbe3a240f3af.js",
+        "/aed-converter/runtime.828b0383e7dea669.js",
+        "/aed-converter/styles.9b7805b21df3425e.css"
       ],
       "patterns": []
     },
@@ -29,37 +29,37 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-256x256.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/aed-converter/assets/icons/icon-128x128.png",
+        "/aed-converter/assets/icons/icon-144x144.png",
+        "/aed-converter/assets/icons/icon-152x152.png",
+        "/aed-converter/assets/icons/icon-192x192.png",
+        "/aed-converter/assets/icons/icon-256x256.png",
+        "/aed-converter/assets/icons/icon-384x384.png",
+        "/aed-converter/assets/icons/icon-512x512.png",
+        "/aed-converter/assets/icons/icon-72x72.png",
+        "/aed-converter/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "f6f843778d5ec1b431752b796bd3170a137edbfc",
-    "/assets/icons/icon-144x144.png": "acd5a02c809e0947fc84df5a3097c247d72e433d",
-    "/assets/icons/icon-152x152.png": "8e0dd7d1772712f283331ccf469f50de3ed86db7",
-    "/assets/icons/icon-192x192.png": "3af91739b4c47c3be129ac526af3dd5c1c9d6e6c",
-    "/assets/icons/icon-256x256.png": "7dcd54780d4c82d4c17fc1af4d71825ba59889d3",
-    "/assets/icons/icon-384x384.png": "2602a1a4775c8209ee8e6fbcc9a178354cd991fd",
-    "/assets/icons/icon-512x512.png": "2ac97cc38f7903cec05d5ccfe68bca922888b48c",
-    "/assets/icons/icon-72x72.png": "b2373c8e44126c556f7d352fe219e161a1c71e3c",
-    "/assets/icons/icon-96x96.png": "c223d0505afb8f6d9e06ac17f36c00ff93f616db",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "6f6533fd8961f5bdb0f56444defca8af175755b0",
-    "/main.88eac96e08e3aa7e.js": "d70d4562c58b9ce817836425e983c5106c2bdc27",
-    "/manifest.webmanifest": "bb7a5591141c946738b56e18acd8701879cf5fef",
-    "/polyfills.9a5ebbe3a240f3af.js": "994996defb00e774ad4638a85043c9e78c33ab8b",
-    "/runtime.828b0383e7dea669.js": "73840ae2c6687cc1e713e61f10631431f0af3193",
-    "/styles.9b7805b21df3425e.css": "f068dba45de4ec21b405f524186acc4d76ebcfb5"
+    "/aed-converter/assets/icons/icon-128x128.png": "f6f843778d5ec1b431752b796bd3170a137edbfc",
+    "/aed-converter/assets/icons/icon-144x144.png": "acd5a02c809e0947fc84df5a3097c247d72e433d",
+    "/aed-converter/assets/icons/icon-152x152.png": "8e0dd7d1772712f283331ccf469f50de3ed86db7",
+    "/aed-converter/assets/icons/icon-192x192.png": "3af91739b4c47c3be129ac526af3dd5c1c9d6e6c",
+    "/aed-converter/assets/icons/icon-256x256.png": "7dcd54780d4c82d4c17fc1af4d71825ba59889d3",
+    "/aed-converter/assets/icons/icon-384x384.png": "2602a1a4775c8209ee8e6fbcc9a178354cd991fd",
+    "/aed-converter/assets/icons/icon-512x512.png": "2ac97cc38f7903cec05d5ccfe68bca922888b48c",
+    "/aed-converter/assets/icons/icon-72x72.png": "b2373c8e44126c556f7d352fe219e161a1c71e3c",
+    "/aed-converter/assets/icons/icon-96x96.png": "c223d0505afb8f6d9e06ac17f36c00ff93f616db",
+    "/aed-converter/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/aed-converter/index.html": "39c8e8f6a1820b66f260ba3f61a9ad4e809c82f3",
+    "/aed-converter/main.88eac96e08e3aa7e.js": "d70d4562c58b9ce817836425e983c5106c2bdc27",
+    "/aed-converter/manifest.webmanifest": "bb7a5591141c946738b56e18acd8701879cf5fef",
+    "/aed-converter/polyfills.9a5ebbe3a240f3af.js": "994996defb00e774ad4638a85043c9e78c33ab8b",
+    "/aed-converter/runtime.828b0383e7dea669.js": "73840ae2c6687cc1e713e61f10631431f0af3193",
+    "/aed-converter/styles.9b7805b21df3425e.css": "f068dba45de4ec21b405f524186acc4d76ebcfb5"
   },
   "navigationUrls": [
     {

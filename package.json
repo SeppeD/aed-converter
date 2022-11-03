@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "start-pwa": "ng build && http-server -p 8080 -c-1 dist"
+    "start-pwa": "ng build && http-server -p 8080 -c-1 dist",
+    "build-pwa": "ng build --output-path docs --base-href=/aed-converter/"
   },
   "private": true,
   "dependencies": {
