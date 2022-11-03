@@ -1,0 +1,87 @@
+:host {
+    display: block;
+}
+
+.conversion-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .currency {
+        margin: 0;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-align: center;
+
+        &-converted {
+            color: #69f0ae;
+        }
+    }
+
+    fieldset {
+        margin-top: 1rem;
+        border-radius: 4px;
+        border: 1px solid #69f0ae;
+      }
+
+      legend {
+        padding: 0 10px;
+        color: #69f0ae;
+        font-size: 1rem;
+      }
+}
+
+.converter-formfield {
+    margin: 1rem;
+
+    font-size: 2rem;
+
+    ::ng-deep {
+
+        .mat-form-field-label,
+        .mat-form-field-outline,
+        .mat-form-field-appearance-outline {
+            color: #69f0ae;
+        }
+
+        .mat-input-element:disabled {
+            color: white;
+        }
+    }
+}
+
+.calculator {
+    display: grid;
+    grid-auto-rows: 60px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-top: 4rem;
+
+    button {
+        font-size: 1rem;
+    }
+
+    .operator {
+        background-color: #2e86c0;
+        border-color: #337cac;
+        color: #fff;
+    }
+
+    .clear {
+        background-color: #f0595f;
+        border-color: #b0353a;
+        color: #fff;
+    }
+
+    .backspace {
+        grid-column: 3 / span 2;
+        background-color: #81B6D9;
+        border-color: #337cac;
+        color: #fff;
+    }
+
+    .zero {
+        grid-column: 2 / span 2;
+    }
+}
